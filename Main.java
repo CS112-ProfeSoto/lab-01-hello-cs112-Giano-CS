@@ -6,6 +6,13 @@ public class Main {
 
         System.out.println("Do I like football? " + Main.isAlike("football"));
 
+        //String writer, String illustrator, String colorist, String title, int issueNum
+        Comic favorite = new Comic("Jerry Siegel", "Joe Shuster", "Strauss Engraving", "Superman", 1);
+
+        favorite.setTitle("Superman");
+        favorite.setIssueNum(1);
+
+        System.out.println("My favorite comic is " + favorite);
     }
 
 
